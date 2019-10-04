@@ -2082,7 +2082,7 @@ body {
     background: url(../img/iPhone_in_hand.png) no-repeat;
     background-size: 33% auto;
     background-position: 30px bottom;
-    padding: 10px 0 100px 0;
+    padding: 10px 0 110px 0;
   }
   .mobile-devices .mobile-title {
     margin: 20px auto 5px;
@@ -2100,7 +2100,7 @@ body {
     margin: 0 auto;
   }
   .mobile-devices .mobile-list {
-    margin: 20px 0 0 80px;
+    margin: 40px 0 0 90px;
     list-style: none;
   }
   .mobile-devices .mobile-list .mobile-list-item {
@@ -2108,7 +2108,7 @@ body {
     margin: 0 0 0 0;
     vertical-align: middle;
     font-family: 'Montserrat-Light';
-    font-size: 8px;
+    font-size: 10px;
     line-height: 16px;
     color: #8c8c8c;
     background: url(../img/arrow-list.png) no-repeat left center;
