@@ -2082,7 +2082,7 @@ body {
     background: url(../img/iPhone_in_hand.png) no-repeat;
     background-size: 33% auto;
     background-position: 30px bottom;
-    padding: 10px 0 140px 0;
+    padding: 10px 0 100px 0;
   }
   .mobile-devices .mobile-title {
     margin: 20px auto 5px;
@@ -2100,16 +2100,16 @@ body {
     margin: 0 auto;
   }
   .mobile-devices .mobile-list {
-    margin: 14px 0 0 100px;
+    margin: 20px 0 0 80px;
     list-style: none;
   }
   .mobile-devices .mobile-list .mobile-list-item {
-    padding: 0 0 0 24px;
+    padding: 0 0 0 16px;
     margin: 0 0 0 0;
     vertical-align: middle;
     font-family: 'Montserrat-Light';
-    font-size: 10px;
-    line-height: 23px;
+    font-size: 8px;
+    line-height: 16px;
     color: #8c8c8c;
     background: url(../img/arrow-list.png) no-repeat left center;
     background-size: 6%;
@@ -2184,6 +2184,9 @@ body {
     align-content: center;
     flex-wrap: wrap;
     position: relative;
+    /*  .recent-link:hover::after {
+            color: gold;
+        }*/
   }
   .recent .date {
     position: absolute;
@@ -2252,15 +2255,12 @@ body {
     color: gold;
   }
   .recent .recent-link::after {
-    content: '\2bc8';
+    content: '';
     color: #c7b299;
     font-size: 14px;
     vertical-align: middle;
     line-height: 14px;
     margin: 0 0 0 10px;
-  }
-  .recent .recent-link:hover::after {
-    color: gold;
   }
   .recent .recent-row {
     margin: 0;
@@ -2609,7 +2609,7 @@ body {
   }
   .footer-bottom {
     width: 100%;
-    padding: 20px 10px;
+    padding: 20px 5px;
     box-sizing: border-box;
     background-color: #111111;
     display: flex;
@@ -2625,7 +2625,7 @@ body {
   }
   .footer-bottom .copyright .copyright-text {
     font-family: 'Montserrat-Light';
-    font-size: 13px;
+    font-size: 10px;
     color: #555555;
   }
   .footer-bottom .copyright .copyright-text a {
@@ -2639,7 +2639,7 @@ body {
   .footer-bottom .copyright .copyright-link {
     color: #555555;
     font-family: 'Montserrat-Light';
-    font-size: 13px;
+    font-size: 10px;
     text-decoration: none;
     line-height: 20px;
     border-left: 1px solid #252525;
@@ -2655,9 +2655,9 @@ body {
   }
   .footer-bottom .design .design-text {
     font-family: 'Montserrat-Light';
-    font-size: 13px;
+    font-size: 8px;
     color: #555555;
-    padding: 0 10px;
+    padding: 0 5px;
   }
   .footer-bottom .design .design-text a {
     color: #959595;
