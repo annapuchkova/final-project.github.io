@@ -1326,6 +1326,7 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     text-decoration: none;
+    width: 50%;
   }
   .main-header .main-header-top .link-logo-svg {
     fill: #fff;
@@ -1350,7 +1351,7 @@ body {
   }
   .main-header .main-header-top .top-menu {
     margin: 0;
-    width: 100%;
+    width: 50%;
     padding: 0;
     min-height: 100px;
     align-content: flex-end;
@@ -1360,7 +1361,7 @@ body {
     display: block;
     position: relative;
     top: -31px;
-    left: 150px;
+    left: 50%;
     z-index: 1;
     -webkit-user-select: none;
     user-select: none;
@@ -1423,7 +1424,7 @@ body {
     position: absolute;
     left: -315px;
     width: 180px;
-    margin: -84px 0 0 88px;
+    margin: -84px 0 0 148px;
     padding: 125px 50px 50px 50px;
     background: #fff;
     list-style-type: none;
