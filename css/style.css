@@ -1323,10 +1323,10 @@ body {
   }
   .main-header .main-header-top .link-logo {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     text-decoration: none;
-    width: 45%;
+    width: 50%;
   }
   .main-header .main-header-top .link-logo-svg {
     fill: #fff;
@@ -1353,7 +1353,7 @@ body {
   }
   .main-header .main-header-top .top-menu {
     margin: 0;
-    width: 55%;
+    width: 50%;
     padding: 0;
     min-height: 100px;
     align-content: flex-end;
@@ -2062,13 +2062,13 @@ body {
     color: #ffffff;
     font-family: 'Montserrat-Light';
     font-size: 12px;
-    line-height: 20px;
+    line-height: 16px;
   }
   .presentation .video-txt-time {
     color: #c7b299;
     font-family: 'Montserrat';
     font-size: 12px;
-    line-height: 20px;
+    line-height: 12px;
   }
   .presentation .video-txt-title,
   .presentation .video-txt-time {
@@ -2080,7 +2080,7 @@ body {
     box-sizing: border-box;
     background-color: #fbfaf8;
     background: url(../img/iPhone_in_hand.png) no-repeat;
-    background-size: 40% auto;
+    background-size: 33% auto;
     background-position: 30px bottom;
     padding: 10px 0 140px 0;
   }
@@ -2100,7 +2100,7 @@ body {
     margin: 0 auto;
   }
   .mobile-devices .mobile-list {
-    margin: 14px 0 0 120px;
+    margin: 14px 0 0 100px;
     list-style: none;
   }
   .mobile-devices .mobile-list .mobile-list-item {
@@ -2272,7 +2272,7 @@ body {
     flex-wrap: wrap;
   }
   .recent .recent-article {
-    width: 60%;
+    width: 70%;
     position: relative;
     margin: 10px auto;
   }
@@ -2297,7 +2297,7 @@ body {
   .recent .recent-article-photo {
     display: block;
     width: 100%;
-    height: 150px;
+    height: 170px;
     transition: filter .5s;
   }
   .recent .recent-article-txt-wrapper {
